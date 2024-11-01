@@ -1,0 +1,49 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Fundo da página */
+  body {
+    background-color: #FAF5F0;
+  }
+  
+  /* Título da página */
+  h2 {
+    color: #8B5E3C;
+    font-weight: bold;
+  }
+  
+  /* Card de cursos */
+  .course-card {
+    border: none;
+    border-radius: 8px;
+    background-color: #FFF8F2;
+  }
+  
+  .course-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .course-card .card-title {
+    color: #6D4C41;
+    font-weight: bold;
+  }
+  
+  .course-card .card-text {
+    color: #8B5E3C;
+  }
+  
+  .course-card .btn-primary {
+    background-color: #8B5E3C;
+    border: none;
+  }
+  
+  .course-card .btn-primary:hover {
+    background-color: #6D4C41;
+  }
+  

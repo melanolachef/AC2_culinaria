@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Fundo da tela com cor terrosa */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #D3B8AE; /* Cor terrosa clara */
+}
+
+/* Container do formulário de login */
+.login-container {
+  background-color: #FFF8F2; /* Cor de fundo suave */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Título */
+.login-container h2 {
+  color: #8B5E3C; /* Cor terrosa escura */
+  margin-bottom: 1rem;
+}
+
+/* Estilo dos rótulos */
+.login-container label {
+  color: #6D4C41;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilo dos inputs */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #BFA797;
+  border-radius: 4px;
+  background-color: #FAF5F0;
+}
+
+/* Estilo do botão */
+.login-container button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #8B5E3C; /* Cor terrosa escura */
+  color: #FFF8F2;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #6D4C41;
+}
+
+/* Link de recuperação de senha */
+.login-container p {
+  margin-top: 1rem;
+}
+
+.login-container a {
+  color: #8B5E3C;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
